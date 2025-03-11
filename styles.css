@@ -1,0 +1,39 @@
+body{
+  background-color: bisque;
+
+
+}
+
+.pricing-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  
+}
+
+.pricing-plan{
+  background-color: aqua;
+  text-align: center;
+  margin-top: 250px;
+}
+
+button{
+  background-color: orangered;
+  color: white; 
+} 
+
+@media(max-width: 800px){
+.pricing-plan{
+  margin-top: 0%;
+  background-color: gray;
+}
+.pricing-container{
+  margin-top: 250px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+}
